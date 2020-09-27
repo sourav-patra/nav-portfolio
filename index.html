@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Navigation</title>
+  <link rel="shortcut icon" type="image/png" href="assets/pics/profile.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+
+</head>
+<body>
+   
+  <div class="container">
+    <!-- Menu overlay -->
+    <div class="overlay overlay-slide-left" id="overlay">
+      <!-- Menu Items -->
+      <nav>
+        <ul>
+          <li class="nav-items slide-out-1">
+            <a href="#home">About Me</a>
+          </li>
+          <li class="nav-items slide-out-2">
+            <a href="#career">Career</a>
+          </li>
+          <li class="nav-items slide-out-3">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-items slide-out-4">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="nav-items slide-out-5">
+            <a href="#contact">Socials</a>
+          </li>
+        </ul>
+      </nav>
+    </div> -->
+    <!-- Menu bars -->
+    <div class="menu-bars" id="menu-bars">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <!-- Sections -->
+    <section id="home">
+      <div class="home-container">
+        <div class="card">
+          <div class="ds-top"></div>
+          <div class="avatar-holder">
+            <img src="assets/pics/Mugshot.png" alt="Sourav Patra">
+          </div>
+          <div class="name">
+            Sourav Prakash Patra
+          </div>
+          <div class="info" id="info">
+            Courteous and enthusiastic, I am interested in IT and everything in its oribit. I kickstarted my career as a JAVA developer but was always fascinated with web programming and all things UI. After my first stint as a Front End Developer, around 4 years ago, there's been no looking back. Bringing mock-ups to life using HTML, CSS and JavaScript is my cup of tea.
+            <br/><br/>
+             From a service-oriented organization to a product-based, I have been involved in building responsive and scalable websites, identifying innovative ideas and POCs as well as providing guidance to team members.
+            <br/><br/>
+            Although I am more analytical, proactive, innovative and adaptable than ever, I am still striving for challenging problem statements and a highly stimulating work environment. Always in the search for opportunities to make contributions that help make the world a better place.
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="career">
+      
+      <div class="journey-container">
+        <div class="timeline">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-1" data-year="2015">
+                <div class="swiper-slide-content"><span class="timeline-year">September</span>
+                  <h4 class="timeline-title">Infosys Ltd</h4>
+                  <p class="timeline-text">Worked as a member of the Internet of Things (IoT) engineering team in <span class="info-important">Infosys Labs</span> to find business solutions to problems faced by companies in a wide range of areas. Dabbled in Embedded systems to build Proofs of Concept and solutions for both internal development and external clients. Skills utilized: <span class="info-important">JAVA, J2EE, Python, MySQL</span></p>
+                </div>
+              </div>
+              <div class="swiper-slide slide-2" data-year="2017">
+                <div class="swiper-slide-content"><span class="timeline-year">January</span>
+                  <h4 class="timeline-title">Infosys Ltd</h4>
+                  <p class="timeline-text">Worked with client <span class="info-important">Toyota Connected</span> as a Front End Developer. Developed and maintained a series of simulators using <span class="info-important">Angular 2</span> that: 1. Approximate the real-world implication of <span class="info-important">Safety Connect</span> micro-services, e.g. Automatic Collision Notification (ACN), Destination Assist (DA), Stolen Vehicle Tracking (SVT), etc. as close as possible. 2. Create a command and control plane to generate a virtual fleet of vehicles that aligns with DCM (Data Communication Module) specifications and standards.</p>
+                </div>
+              </div>
+              <div class="swiper-slide slide-3" data-year="2018">
+                <div class="swiper-slide-content"><span class="timeline-year">April</span>
+                  <h4 class="timeline-title">Soroco</h4>
+                  <p class="timeline-text">Worked with client <span class="info-important">Amazon Development Centre</span> to build and maintain a real-time automation system using <span class="info-important">Angular, PrimeNG, and D3 Charts</span>. It contains: a) Automation Dashboard: To monitor and gather data on health and status of the automation system, and b) Data Management Module: A data entry module with dynamically generated forms to facilitate quick inputs in bulk and process data for automation. We crossed <span class="info-important">1 million transactions</span> within 6 months of deployment.</p>
+                </div>
+              </div>
+              <div class="swiper-slide slide-4" data-year="2018">
+                <div class="swiper-slide-content"><span class="timeline-year">September</span>
+                  <h4 class="timeline-title">Soroco</h4>
+                  <p class="timeline-text">Enrolled into the <span class="info-important">Product Engineering Team</span> to build one of the first products: <span class="info-important">Automation Systems - Smart Work Bench</span>, a customizable Automation Dashboard built using <span class="info-important">Angular, PrimeNG, and D3 Charts</span>. It is designed to generate an interactive dashboard and an input data module using the SWB library. Also built and maintained <span class="info-important">SWB (Smart Work Bench)</span> library, a workbench input module (a wrapper on <a class="project-link" href="https://formly.dev/" target="_blank">Formly</a>) that can be customized to generate forms using a comprehensive set of 40+ UI components and a built-in validation framework to enforce data quality checks and other constraints. Automation Systems is now used in all client automation dashboards involving <span class="info-important">5000+</span> users.</p>
+                </div>
+              </div>
+              <div class="swiper-slide slide-5" data-year="2019">
+                <div class="swiper-slide-content"><span class="timeline-year">August</span>
+                  <h4 class="timeline-title">Soroco</h4>
+                  <p class="timeline-text">Started working for the flagship product of Soroco, 
+                    <a class="project-link" href="https://soroco.com/scout-enterprise/" target="_blank">Scout Enterprise</a>. Built the module <span class="info-important">Process Modelling</span> using <span class="info-important">Angular, Material, MxGraph, RxJS, Redux, PrimeNG</span> and a few other dependent libraries. It enables the visualization and documentation of to-be processes in a creative and UI rich environment. It is a "No-code studio" with drag 'n' drop functionality and media annotation for documenting all steps of a process workflow. It also contains a
+                    "Process library" for maintaining a knowledge base of all redesigned processes
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="skills"><h1>These are my skills</h1></section>
+    <section id="projects"><h1>These Are my projects</h1></section>
+    <section id="contact"><h1>Available Anytime</h1></section>
+  </div>
+
+  <!-- Scripts -->
+  <!-- Swiper JS library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+  <!-- Custom scripts -->
+  <script src="scripts/script.js"></script>
+  <script src="scripts/journey.js"></script>
+
+</body>
+</html>
