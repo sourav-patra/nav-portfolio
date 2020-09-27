@@ -1,10 +1,9 @@
-
 .journey-container {
   display: -webkit-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #d28a87;
+  background: #23232c;
   flex-direction: column;
   height: 100%;
 }

@@ -2,6 +2,7 @@
 
 @import 'assets/styles/home.css';
 @import 'assets/styles/career.css';
+@import 'assets/styles/projects.css';
 
 :root {
   --primaryColor: #fff;
