@@ -20,6 +20,8 @@
   height: 120px;
   background: #6d5c71;
   animation: dsTop 1.5s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .card .avatar-holder {
   position: absolute;
