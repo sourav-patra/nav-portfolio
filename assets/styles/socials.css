@@ -1,6 +1,5 @@
 .socials-container {
   width: 90vw;
-  position: relative;
   display: flex;
   justify-content: space-between;
 }

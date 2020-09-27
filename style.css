@@ -259,3 +259,30 @@ section#skills {
     right: 1rem;
   }
 }
+
+
+h1.page-title {
+  position: absolute;
+  left: 50%;
+  top: 2%;
+  z-index: 10;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 2000px) {
+  h1.page-title {
+    top: 5%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  h1.page-title {
+    top: 2%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  h1.page-title {
+    top: 0;
+  }
+}
