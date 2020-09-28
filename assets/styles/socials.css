@@ -130,6 +130,21 @@ i {
   text-decoration: none;
 }
 
+.github-contact {
+  position: absolute;
+  bottom: 5%;
+  right: 4%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.github-contact a {
+  text-decoration: none;
+}
+.github-contact i {
+  color: #23232c;
+}
+
 
 @media screen and (max-width: 1600px) {
   .socials-container .social-card .face.face2 .content h3 {
