@@ -61,14 +61,9 @@
 
 .card .info {
   position: absolute;
-  /* margin: auto; */
-  /* top: 120px; */
   bottom: 0;
   padding: 2rem;
-  /* right: 0; */
-  /* left: 0; */
   width: 550px;
-  /* height: 200px; */
   animation: fadeInMove 2s;
   animation-fill-mode: forwards;
   letter-spacing: normal;
