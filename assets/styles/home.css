@@ -110,3 +110,25 @@
   }
 }
 
+@media screen and (max-height: 640px) {
+  .home-container .card {
+    height: 550px;
+  }
+
+  .home-container .card .ds-top {
+    height: 110px;
+  }
+
+  .home-container .card .avatar-holder {
+    top: 30px;
+  }
+
+  .home-container .card .name {
+    font-size: 16px;
+    top: 200px;
+  }
+
+  .home-container .card .info {
+    font-size: 15px;
+  }
+}
