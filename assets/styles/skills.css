@@ -1,0 +1,111 @@
+.skill-container {
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 5px white solid;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  position: absolute;
+  cursor: pointer;
+  animation: float 3s ease-in-out infinite;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+.angular {
+  top: 40%;
+  left: 45%;
+  background: rgba(181,46,49, 0.5);
+}
+.javascript {
+  top: 19%;
+  left: 45%;
+  background: rgba(247,223,30, 0.5);
+}
+.html {
+  top: 29%;
+  left: 36%;
+  background: rgba(227,79,38, 0.5);
+}
+.css {
+  top: 29%;
+  left: 54%;
+  background: rgba(0,164,228, 0.5);
+}
+.rxjs {
+  top: 50%;
+  left: 36%;
+  background: rgba(223,0,144, 0.5);
+}
+.nodejs {
+  top: 50%;
+  left: 54%;
+  background: rgba(33,87,50, 0.5);
+}
+.java {
+  top: 61%;
+  left: 45%;
+  background: rgba(248,152,32, 0.5);
+}
+.sql {
+  top: 40%;
+  left: 27%;
+  background: rgba(0,117,143, 0.5);
+}
+.react {
+  top: 40%;
+  left: 63%;
+  background: rgba(0,216,255, 0.5);
+}
+.git {
+  top: 61%;
+  left: 27%;
+  background: rgba(108,198,68, 0.5);
+}
+.agile {
+  top: 61%;
+  left: 63%;
+  background: rgba(0,51,102, 0.5);
+}
+
+@media screen and (max-width: 1368px) {
+  .skill-container {
+    width: 130px;
+    height: 130px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .skill-container {
+    width: 120px;
+    height: 120px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .skill-container {
+    width: 110px;
+    height: 110px;
+    font-size: 14px;
+  }
+}
